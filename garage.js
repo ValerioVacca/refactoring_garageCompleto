@@ -34,7 +34,7 @@ let garage = {
         //AUTO
         if (macchinazze.length > 0) {
             console.log(`Per questo brand di automobili, abbiamo i seguenti modelli:`);
-            filtered.forEach((macchinina) =>
+            macchinazze.forEach((macchinina) =>
                 console.log(`- ${macchinina.model}`)
             );
         } else {
